@@ -1,0 +1,49 @@
+
+.hover-fx {
+    cursor: pointer;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+}
+
+.hover-fx:after {
+    position: absolute;
+    transition: 300ms;
+}
+
+.hover-fx:hover {
+    color: #ffffff;
+}
+
+.gradient_bg{
+    background-image: linear-gradient(90deg, #2193b0, #6dd5ed);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    z-index: -1;
+}
+
+.input_button {
+ color: rgb(1, 171, 184);
+ font-weight: bolder;
+ padding: .6em 1.1em;
+ background-color: rgb(11, 50, 68);
+ border-radius: .3em;
+ border: 1px solid;
+ transition: .5s;
+ font-size: 1.15em;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+.input_button:hover {
+ color: rgb(132, 224, 255);
+ background-color: transparent;
+}
+
+#picture {
+    max-width: 100%;
+    max-height: 100%;
+}
