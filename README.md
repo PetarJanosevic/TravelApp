@@ -8,13 +8,13 @@ This Project was the final project from the Udacity Front-End Nanodegree course.
 Type in the name of the city you're about to visit. Select a date in the future and press the button. It returns the temperature for that particular day in that city.
 
 ### Plugins and other technology used
-npm i -D @babel/core @babel/preset-env babel-loader
-npm i -D style-loader node-sass css-loader sass-loader
-npm i -D clean-webpack-plugin
-npm i -D html-webpack-plugin
-npm i -D mini-css-extract-plugin
-npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
++ npm i -D @babel/core @babel/preset-env babel-loader
++ npm i -D style-loader node-sass css-loader sass-loader
++ npm i -D clean-webpack-plugin
++ npm i -D html-webpack-plugin
++ npm i -D mini-css-extract-plugin
++ npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 The main design/layout was made from bootstrap. I made some changes to it to make it more unique and beautiful. Bootstrap webpack:
 https://getbootstrap.com/docs/4.0/getting-started/webpack/
-npm install bootstrap jquery popper.js --save
-npm install exports-loader --save-dev
++ npm install bootstrap jquery popper.js --save
++ npm install exports-loader --save-dev
